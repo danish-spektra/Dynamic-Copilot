@@ -24,6 +24,10 @@ Participants should have: Basic knowledge and understanding of the following
 - Microsoft Outlook
 - CRM basics (Dynamics 365)
 
+## Architecture Diagram: 
+
+![](../media/d365-image3.png) 
+
 ## Accessing Your Lab Environment
  
 Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
