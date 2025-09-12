@@ -65,7 +65,7 @@ In this task, you will learn how to install Copilot for Sales as an integrated a
    
 1. Select **Settings (1)**, choose **Integrated Apps (2)**, click **Available Apps (3)**, and in the AppSource window search for **Copilot for Sales (4)** and select **Copilot for Sales (5)**.
 
-    ![](../media/d365-iamge1.png)
+    ![](../media/d365-image1.png)
 
 1. On **Copilot for Sales**, page cClick on **Deploy App**.
 
@@ -77,7 +77,7 @@ In this task, you will learn how to install Copilot for Sales as an integrated a
 
 1. In the **Users** step, select **Just me(<inject key="AzureAdUserEmail"></inject>) (2)**, and then select **Next (2)**.
 
-      ![](../media/just-me.png)
+      ![](../media/d365-image2.png)
 
 1. Click on **Accept permissions**.
 
