@@ -13,7 +13,7 @@ In this lab, you will perform:
 
 ## Task 1: Access the Copilot for Sales app in Mail and Meeting Creations
 
-In this Task you will understand how to access and use Copilot for Sales in Outlook Mail, Calendar, and Microsoft Teams. It helps you integrate AI support for emails, meetings, and collaboration. The goal is to improve productivity and sales efficiency across Microsoft 365 tools.
+In this task you will understand how to access and use Copilot for Sales in Outlook Mail, Calendar, and Microsoft Teams. It helps you integrate AI support for emails, meetings, and collaboration. The goal is to improve productivity and sales efficiency across Microsoft 365 tools.
 
 1. In a new browser tab search for **outlook.com** and sign in using the odl credentials provided in the Environment tab.
 
