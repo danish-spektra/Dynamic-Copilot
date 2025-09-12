@@ -61,43 +61,43 @@ In this task, you will create a new environment in Power Apps with Dataverse ena
 
 In this task, you will learn how to install Copilot for Sales as an integrated app from the Microsoft 365 admin center. By default, the app is installed in Fixed mode, where users receive the app automatically and cannot remove it. You will also explore how to manage the app's configuration, add and remove users, and monitor its usage within the Microsoft 365 admin center. 
 
-1.	Sign into the **[Microsoft 365 admin center](https://admin.microsoft.com/)**. In the left pane, click **Show all**.
+1. Sign into the **[Microsoft 365 admin center](https://admin.microsoft.com/)**. In the left pane, click **Show all**.
    
 1. Select **Settings (1)**, choose **Integrated Apps (2)**, click **Available Apps (3)**, and in the AppSource window search for **Copilot for Sales (4)** and select **Copilot for Sales (5)**.
 
     ![](../media/d365-iamge1.png)
 
-3. On **Copilot for Sales**, page cClick on **Deploy App**.
+1. On **Copilot for Sales**, page cClick on **Deploy App**.
 
    ![](../media/p-2.png)
 
-4.	In the **Configuration** step, it will display the apps to be deployed, and then select **Next**.
+1. In the **Configuration** step, it will display the apps to be deployed, and then select **Next**.
 
       ![](../media/dyn4.png)
 
-5.	In the **Users** step, select **Just me(<inject key="AzureAdUserEmail"></inject>) (2)**, and then select **Next (2)**.
+1. In the **Users** step, select **Just me(<inject key="AzureAdUserEmail"></inject>) (2)**, and then select **Next (2)**.
 
       ![](../media/just-me.png)
 
-6. Click on **Accept permissions**.
+1. Click on **Accept permissions**.
 
       ![](../media/dyn5.png)
 
-7. Select the **<inject key="AzureAdUserEmail"></inject>**.
+1. Select the **<inject key="AzureAdUserEmail"></inject>**.
 
       ![](../media/dyn6-1.png)
    
-8.	In the **Deployment** step, once it displays as **Permission accepted**, select **Next**.
+1. In the **Deployment** step, once it displays as **Permission accepted**, select **Next**.
 
       ![](../media/dyn21.png)
 
-9.	In the **Deployment (Finish)** step, review the selected settings, and then select **Finish deployment**.
+1. In the **Deployment (Finish)** step, review the selected settings, and then select **Finish deployment**.
 
       ![](../media/dyn7.png)
 
-10. When the deployment is complete, click on **Done**.
+1. When the deployment is complete, click on **Done**.
 
-11. Under **Deployed Apps (1)**, verify **Copilot for Sales (2)**.
+1. Under **Deployed Apps (1)**, verify **Copilot for Sales (2)**.
 
       ![](../media/dc41.png)
 
