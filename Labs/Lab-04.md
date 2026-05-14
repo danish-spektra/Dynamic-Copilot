@@ -1,11 +1,8 @@
-# Lab 04: Drive AI-powered sales
-# Capabilities in Teams 
-
-# Elevate Sales Meeting 
+# Lab 04: Drive AI-powered Sales capabilities in Teams and Elevate Sales Meeting
 
 ## Lab Overview
 
-In this lab, you'll explore the Copilot for Sales app within Microsoft Teams, designed to enhance your meeting efficiency with sales contacts. You will learn how to view the meeting preparation card and record the meeting. Copilot for Sales uses the recorded call and transcript to generate and summarize rich meeting insights. The meeting summary provides an overview of how the conversation went. It includes action items and relevant keywords, a breakdown of customer sentiments during the call, and more
+In this lab, you'll explore the Sales app within **Microsoft Teams**, designed to enhance your meeting efficiency with sales contacts. You will learn how to view the meeting preparation card and record the meeting. Copilot for Sales uses the recorded call and transcript to generate and summarize rich meeting insights. The meeting summary provides an overview of how the conversation went. It includes action items and relevant keywords, a breakdown of customer sentiments during the call, and more
 
 ## Lab Objectives
 
@@ -21,7 +18,7 @@ In this task, you will learn how to schedule a Teams meeting with external parti
 
 - You must invite at least one external participant to the meeting.
 - You must transcribe the meeting for Copilot for Sales to generate insights.
-- If you create a recurring meeting, the Copilot for Sales app is added to all occurrences of the meeting.
+- If you create a recurring meeting, the Sales app is added to all occurrences of the meeting.
 
 1. Navigate to **Teams (2)** from Outlook by clicking on the **More Options (1)** on the top left of the Outlook Window.
 
@@ -43,9 +40,6 @@ In this task, you will learn how to schedule a Teams meeting with external parti
 - **Choose a Date & Time**  
   - Select a suitable upcoming date and time.
 
-- **(Optional) Assign a Channel**  
-  - Link the meeting to a specific channel if needed.
-
 - **Add a Meeting Description**  
   - Briefly describe the purpose of the meeting.  
   - *Example: "Quick meeting to disscuss Customer needs"*
@@ -62,27 +56,25 @@ In this task, you will learn how to set up Copilot for Sales within a Teams meet
 
 - **Manually** - 
 
-1. Navigate to the **Calendar** in *Teams,*  then select the meeting name **(1)** and click on **Join(2).** 
+1. Navigate to the **Calendar** in **Teams App on Desktop,**  then select the meeting name **(1)** and click on **Edit (2).** 
 
-      ![](../media/dc19.png)
+      ![](../media/dc19-1.png)
 
-1. Open the **Copilot for Sales (1)** chat and click on **About (2).**
+1. Within the editing section open the **Apps Icon**.
 
       ![](../media/dc23.png)
 
-1. Click on **Open (1)** drop down and select **Add to a meeting (2).**  
+1. Browse for **Sales**. 
 
       ![](../media/dc37.png)
 
-1. Select the meeting name **(1)** then click on **Set up (2)** drop-down and select **Set up a tab (3).**
+1. Review the page for the Sales App's capabilities and proceed to **Add**.
 
       ![](../media/dc21.png)
 
-    >**Note:** If the meeting name isn’t visible, wait a few moments and then check again.
+1. Open the **Calender in Teams** and join the **Demo Meeting** you created earlier
 
-1. Click on **Save.** 
-
-1. Open the meeting and Start the **recording and transcription**. Then Begin by speaking for a few minutes.
+1. In the top ribbon, Start the **recording and transcription**. Then Begin by speaking for a **few minutes (Important)**.
 
       ![](../media/4-101.png)
 
@@ -100,7 +92,7 @@ In this task, you will learn how to access AI-generated summaries after a meetin
 
 1. In the mean time you can proceed with next task.Then come back and check.   
 
-1. Once the insights are fetched, click on **Sales** tab. There you can review the recording that includes both **Recording (1)** and **Transcription (2)** of the meeting.
+1. Once the insights are fetched, click on **Recap** tab. There you can review the recording that includes both **Recording** and **Transcription** of the meeting.
 
       ![](../media/dc49.png)
 
@@ -108,7 +100,7 @@ In this task, you will learn how to access AI-generated summaries after a meetin
 
 In this task, you will learn how to explore additional AI-powered features such as drafting follow-up emails, viewing transcripts, reviewing AI notes, and creating tasks in Dynamics 365 from meeting insights.
 
-1. Naviagte to the meeting chat in your chat list, select the **Copilot for Sales (1)** tab and select **Open recap (2)**.
+1. Navigate to the meeting chat in your chat list, select the **Sales** chat and select **Open recap (2)**.
 
       ![](../media/dc50.png)
 
@@ -126,8 +118,6 @@ In this task, you will learn how to explore additional AI-powered features such 
 
 1. Navigate to **Transcript** tab, to view the meeting transcript, where you also have the option to download it in **.docs** and **.vtt** format.
 
-      ![](../media/dc641.png)
-
 1. Navigate to **AI notes,** to view details of the discussions from the meeting session.
 
       ![](../media/dc66.png)
@@ -142,7 +132,7 @@ In this task, you will learn how to explore additional AI-powered features such 
 
     >**Note:** Sometimes ***Suggested follow-ups from the meeting*** may not appear, if they are not relevant to the topics discussed in the meeting.
 
-8. On the **Create a task in Dynamic 365** page, provide the following details.
+8. **[Optional]** On the **Create a task in Dynamic 365** page, provide the following details.
 
       - **Enter the Subject**  
         - Set the task title as: **Implement Sales AI with Microsoft Copilot (1)**

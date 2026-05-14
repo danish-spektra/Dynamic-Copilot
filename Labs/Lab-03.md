@@ -2,7 +2,7 @@
 
 ## Lab Overview
 
-This lab demonstrates how Copilot for Sales streamlines CRM updates from customer email interactions. Instead of manually updating CRM systems, which can be time-consuming and error-prone, Copilot for Sales uses AI to summarize email conversations. These summaries can be efficiently added as notes to your CRM records, highlighting key details like budget, stakeholders, needs, and timing for external emails when detected with high confidence. You will learn to set up and use Copilot for Sales to enhance your CRM update process.
+This lab demonstrates how Copilot for Sales streamlines CRM updates from customer email interactions. Instead of manually updating CRM systems, which can be time-consuming and error-prone, Copilot for Sales uses AI to summarize email conversations. These summaries can be efficiently added as notes to your CRM records, highlighting key details like budget, stakeholders, needs, and timing for external emails when detected with high confidence. You will learn to set up and use the Sales app to enhance your CRM update process.
 
 ## Lab Objectives
 
@@ -18,7 +18,7 @@ In this exercise, you will learn how to use Copilot for Sales to generate AI-pow
 
 1. In **Outlook**, open or reply to a customer email.
 
-1. Open the **Copilot for Sales** pane.
+1. Open the **Sales** pane.
 
 1. The **email summary** is displayed in the **Key email info** card.
 
@@ -32,7 +32,7 @@ In this task, you will learn how to use Copilot’s pre-defined reply categories
 
    ![](../media/dc15.png)
 
-1. Choose any of the **pre-defined categories** provided under **Draft with Copilot**
+1. Choose any of the **pre-defined categories** provided under **Suggested Drafts**
 
    ![](../media/2-1.png)
    
@@ -58,13 +58,19 @@ In this task, you will learn how to create fully customized email drafts by prov
 
 1. Type the Draft message you want to type and click on **Generate** to generate the draft.
 
+   ```
+   Hello,
+   Thank you for reaching out to us.
+   Best Regards
+   ```
+
       ![](../media/dyn23.png)
 
-1. Click on the highlighted icon to adjust the draft.
+1. Choose any of the options to adjust the draft.
 
       ![](../media/dyn24.png)
 
-1. Use the following options to adjust the draft, after making the required adjustments, click on **Keep it** and click on **Send**.
+1. Use the following options to adjust the draft, after making the required adjustments, click on **Replace** and then you can proceed to **Send**.
 
       ![](../media/dyn25.png)
 

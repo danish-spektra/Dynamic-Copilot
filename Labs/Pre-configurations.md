@@ -2,16 +2,16 @@
 
 ## Overview
 
-This task will guide you through setting up an environment in Microsoft Power Apps, which provides storage for apps, flows, data, and other resources. You will learn how to create a database to use Dataverse as a data store. Dataverse is a cloud-scale database used to securely store data for business applications. It not only offers data storage but also allows you to implement business logic, enforce business rules, and automate processes against the data.
+This task will guide you through setting up an environment in **Microsoft Power Apps**, which provides storage for apps, flows, data, and other resources. You will learn how to create a database to use Dataverse as a data store. Dataverse is a cloud-scale database used to securely store data for business applications. It not only offers data storage but also allows you to implement business logic, enforce business rules, and automate processes against the data.
 
 ## Lab Objectives
 
 In this lab, you will perform:
 
-- Task 1: Create an environment in Power Apps
-- Task 2: Install Copilot for Sales in Outlook
-- Task 3: Install and pin Copilot for Sales in Teams
-- Task 4: Pre-configure policies to analyze sales meetings with AI-generated meeting summaries
+- Task 1: Create an environment in Power Apps.
+- Task 2: Install Copilot for Sales in Outlook.
+- Task 3: Install and pin Copilot for Sales in Teams.
+- Task 4: Pre-configure policies to analyze sales meetings with AI-generated meeting summaries.
 
 ### Task 1: Create an environment in Power Apps
 
@@ -27,9 +27,13 @@ In this task, you will create a new environment in Power Apps with Dataverse ena
 
    ![](../media/L01.png)
 
-1. Enter **Copilot for Sales** as the name **(1)**, ensure that **Add a Dataverse data store** is set to **Yes (2)**, leave Group unchanged since it is optional, and then click **Next (3)**.
+1. Select the Type as **Production (1)**, enter the name as **Copilot-for-Sales (2)** 
 
    ![](../media/L2.png)
+
+   Scroll Down and ensure that **Add a Dataverse data store** is set to **Yes (2)**, leave Group unchanged since it is optional, and then click **Next (3)**.
+
+   ![](../media/L2-1.png)
 
 1. Under **Security Group**, click on **+ Select**.
 
@@ -39,7 +43,7 @@ In this task, you will create a new environment in Power Apps with Dataverse ena
 
    ![](../media/dc39.png)
 
-1. Make sure **Enable Dynamics 365 apps** is set to **Yes (1)**, select **Sales Pro (2)** for **Automatically deploy these apps** and click on **Save (3)**.
+1. Make sure **Enable Dynamics 365 apps** is set to **Yes (1)**, select **Sales Enterprise (2)** for **Automatically deploy these apps** and click on **Save (3)**.
 
    ![](../media/dc40.png)
 
@@ -55,21 +59,21 @@ In this task, you will create a new environment in Power Apps with Dataverse ena
 
    ![](../media/dyn3-1.png)
 
-1. Make sure **Basic User**, **Salesperson** and **Sales Copilot User** is checked and click on **Save**.
+1. Make sure **Basic User, Salesperson, Sales Copilot User, Sales Enterprise App Access** and **System Administrator** is checked and click on **Save**.
 
 ### Task 2: Install Copilot for Sales in Outlook 
 
-In this task, you will learn how to install Copilot for Sales as an integrated app from the Microsoft 365 admin center. By default, the app is installed in Fixed mode, where users receive the app automatically and cannot remove it. You will also explore how to manage the app's configuration, add and remove users, and monitor its usage within the Microsoft 365 admin center. 
+In this task, you will learn how to deploy Copilot for Sales as an integrated app from the Microsoft 365 admin center. By default, the app is installed in Fixed mode, where users receive the app automatically and cannot remove it. You will also explore how to manage the app's configuration, add and remove users, and monitor its usage within the Microsoft 365 admin center. 
 
 1. Sign into the **[Microsoft 365 admin center](https://admin.microsoft.com/)**. In the left pane, click **Show all**.
    
-1. Select **Settings (1)**, choose **Integrated Apps (2)**, click **Available Apps (3)**, and in the AppSource window search for **Copilot for Sales (4)** and select **Copilot for Sales (5)**.
+1. Select **Settings (1)**, choose **Integrated Apps (2)**, click **Deployed Apps (3)**, and open **Get Apps (4)**.
 
     ![](../media/d365-image1.png)
 
-1. On **Copilot for Sales**, page cClick on **Deploy App**.
+1. In the Apps window search for **Copilot for Sales (1)** and select **Get it now (2)**.
 
-   ![](../media/p-2.png)
+   ![](../media/d365-image1.1.png)
 
 1. In the **Configuration** step, it will display the apps to be deployed, and then select **Next**.
 
@@ -97,13 +101,13 @@ In this task, you will learn how to install Copilot for Sales as an integrated a
 
 1. When the deployment is complete, click on **Done**.
 
-1. Under **Deployed Apps (1)**, verify **Copilot for Sales (2)**.
+1. Yo can then view the verification status to be **OK**.
 
       ![](../media/dc41.png)
 
 ### Task 3: Install and pin Copilot for Sales in Teams 
 
-In this task, you will configure Microsoft Teams to install and pin the Copilot for Sales app. By doing so, users can easily access Copilot from Teams chats, meetings, and collaboration spaces. You will create and apply setup policies to make the app available and pinned by default for your users.
+In this task, you will configure Microsoft Teams to install and pin the Sales app. By doing so, users can easily access Copilot from Teams chats, meetings, and collaboration spaces. You will create and apply setup policies to make the app available and pinned by default for your users.
 
 1. Sign in to the **[Teams admin center](https://admin.teams.microsoft.com/)**, then in the left pane expand **Teams apps (1)**, choose **Setup policies (2)**, and click **Add (3)**.
 
@@ -113,17 +117,19 @@ In this task, you will configure Microsoft Teams to install and pin the Copilot 
 
    ![](../media/t-2.png) 
    
-1. Under **Installed apps**, select **Add apps**. In the **Add installed apps** panel, search for the **Copilot for Sales** app and click **Select**
+1. Within the Information note rhere is an option to manage installed apps. Click on the **Manage apps page** link
 
-      **Note:** You can also filter apps by app permission policy.
+   ![](../media/add-apps.png)
 
-   ![](../media/add-apps.png) 
+   Add **Sales** app by browsing for it
 
-1. Select **Add** again to install the listed apps.
+   ![](../media/add-apps-1.png)
+
+1. Select the **Sales app** (1) and open **Edit Installs** (2). In the sidebar menu beneath the installation dropdown, **ensure you select specific users or groups** (3), **designate your ODL user ID** (4), and **apply the changes** (5)
 
    ![](../media/t-4.png) 
 
-1. Under **Pinned apps**, select **Add apps**. In the **Add pinned apps** panel, search for the **Copilot for Sales** app and select **Add**.
+1. Under **Pinned apps**, select **Add apps**. In the **Add pinned apps** panel, search for the **Sales** app and select **Add**.
 
    ![](../media/t-6.png) 
 
@@ -141,9 +147,9 @@ In this task, you will configure Microsoft Teams to install and pin the Copilot 
 
 ### Task 4: Pre-configuration to Analyze sales meetings with AI-generated meeting summaries
 
-In this task you will focuse on enabling transcription and recording policies in Teams. These settings are necessary for Copilot to analyze meetings and generate AI-powered summaries. By turning on transcription across calling, live events, meetings, and voicemail, you ensure that sales meetings can be captured and enhanced with actionable insights
+In this task you will focus on enabling transcription and recording policies in Teams. These settings are necessary for Copilot to analyze meetings and generate AI-powered summaries. By turning on transcription across calling, live events, meetings, and voicemail, you ensure that sales meetings can be captured and enhanced with actionable insights
 
-1. Navigate to [Defender portal](https://admin.teams.microsoft.com/). 
+1. Navigate to [Teams Admin portal](https://admin.teams.microsoft.com/). 
 
 1. Navigate to **Manage users (1)** under ***Users,** then click on the <inject key="AzureAdUserEmail"></inject> **(2)**.
 
@@ -154,6 +160,8 @@ In this task you will focuse on enabling transcription and recording policies in
    ![](../media/dc52.png)
 
 1. Naviage to **Transcription***, switch it **On** and click on **Save.**
+
+   >**Note**: Some policies may have transcription already enabled; simply review and confirm the settings are appropriate for your organization.
 
    ![](../media/dc53.png)
 
@@ -185,10 +193,10 @@ In this task you will focuse on enabling transcription and recording policies in
 
 In this lab, you have:
 
-- Created a Power Apps environment with Dataverse and Sales Pro
-- Installed Copilot for Sales in Outlook
-- Installed and pinned Copilot for Sales in Teams
-- Enabled transcription and recording policies for AI-generated meeting summaries
+- Created a Power Apps environment with Dataverse and Sales Enterprise.
+- Registered the Sales App in Outlook.
+- Installed and pinned Copilot for Sales in Teams.
+- Enabled transcription and recording policies for AI-generated meeting summaries.
 
 ### You have successfully completed the lab. Now click on Next from the lower right corner to move on to the next page.
 

@@ -11,7 +11,7 @@ In this lab, you will explore how Microsoft Copilot for Sales integrates with CR
 - Task 1: CRM customizations and controls in Teams and Outlook
 - Task 2: Discover more options in Microsoft Copilot for Sales (in outlook) 
 
-### Task 1: CRM customizations and controls (in teams) 
+### Task 1: CRM customizations and controls (in Teams Desktop) 
 
 In this task, you will learn how to customize and configure Copilot for Sales to better align with your organization’s CRM needs. You will explore Copilot AI settings, manage forms by adding new record types and filters, and modify record types by adding, reordering, or removing fields. Additionally, you will configure editing permissions for records and fields, enable new contact creation, and define key fields for mini views. These customizations ensure that sales teams have relevant, structured, and high-quality CRM data accessible within Teams and Outlook.
 
@@ -19,7 +19,7 @@ In this task, you will learn how to customize and configure Copilot for Sales to
 
 In this task, you will review and configure Copilot AI settings to enable or disable features based on your organization’s preferences and needs.
 
-1. Click on **Apps** and open **Copilot for Sales**.
+1. Open your **Teams Desktop App**, Click on **Apps** and open **Sales**.
 
    ![](../media/6-111.png)
 
@@ -29,9 +29,9 @@ In this task, you will review and configure Copilot AI settings to enable or dis
 
 ### Task 1.2: Forms
 
-In this task, you will learn how to add new record types, view filters applied to records, and manage the way CRM data is displayed within Copilot for Sales.
+In this task, you will learn how to add new record types, view filters applied to records, and manage the way CRM data is displayed within Sales App.
 
-- ### Add a new record type
+### Add a new record type
 
 1. Click on **Settings** and select **Forms** under Environment tab and click on **Add record type**.
 
@@ -41,11 +41,11 @@ In this task, you will learn how to add new record types, view filters applied t
 
    ![](../media/6-41.png)
 
-1. In the **Select the relationship** for (record type) window, select the **relationship** to existing record types or fields in Copilot for Sales, and then select **Next**.
+1. In the **Select the relationship** for (record type) window, select the **relationship** to existing record types or fields in Sales, and then select **Next**.
 
    ![](../media/6-5.png)
 
-1. In the **Select the view** for (record type) window, select the view to define how a list of records for a specific record type is displayed, and then select **Add**.
+1. In **Select the view** for (record type) window, choose the view that controls how the list of records appears for that record type. Then select **My Open Leads** and click **Add**.
 
    ![](../media/6-61.png)
 
@@ -53,21 +53,25 @@ In this task, you will learn how to add new record types, view filters applied t
 
    ![](../media/6-7.png)
 
-- ### View filters used in a view
+### View filters used in a view
 
-6. Select a record type for which you want to see the query used in the selected view.
+1. Select a record type for which you want to see the query used in the selected view.
 
-7. Select **View filters** under the **Manage fields** section.
+   ![](../media/5vf-6.png)
+
+1. Select **View filters** under the **Manage fields** section.
 
    ![](../media/6-8.png)
 
-8. To copy the query XML, select **Copy XML**.
+1. To copy the query XML, select **Copy XML**.
+
+   ![](../media/5vf-8.png)
 
 ## Task 1.3:  Modify record types not based on a CRM view
 
-In this task, you will customize record types by adding, reordering, or removing fields to make sure that the displayed information is relevant and useful for your sales teams.
+In this task, you will customize record types by adding, reordering, or removing fields to make sure that the displayed information is relevant and useful for your sales teams. There is also an alternative way of doing this via Power Apps.
 
-- ### Add fields
+### Add fields (Teams)
 
 1. Select a **record type** as **Lead**.
 
@@ -85,47 +89,61 @@ In this task, you will customize record types by adding, reordering, or removing
 
 1. Select **Publish** to save your changes.
 
-- ### Reorder fields
+### Add fields (Power Apps) (Alternative)
 
-5. Select the record type in which you need to reorder fields.
+1. Open [Power Apps](https://make.powerapps.com/environments/3ead30ed-048d-e0ac-93e2-9b1c7aeda619/home) and configure the environment you are on, in this case **Copilot-for-Sales (1)**. **Choose Table (2)** from the side-menu, under **All section (3)** search for **Lead (4)** and then use the eclipse button to **edit it (5)**.
 
-6. In the **Manage fields** section, hover over the field you want to reorder, and then select the **Move up** or **Move down** arrows.
+   ![](../media/pa-3.1.png)
+
+1. In the Edit section, open the burger menu, search for the 'Accounts' column, and once it appears, click on it to add it.
+
+   ![](../media/pa-3.2.png)
+
+1. You can go back and click on **leads eclipse icon** again to **publish** it. Give it some time and it will reflect on the Teams App too.
+
+   ![](../media/pa-3.3.png)
+
+### Reorder fields
+
+1. Select the record type in which you need to reorder fields.
+
+1. In the **Manage fields** section, hover over the field you want to reorder, and then select the **Move up** or **Move down** arrows.
 
    ![](../media/move.png)
 
    > **Note:** You can also drag the field to change its order.
 
-7. Select **Publish** to save your changes.
+1. Select **Publish** to save your changes.
 
-- ### Remove fields
+### Remove fields
 
-8. Select the record type from which you need to remove fields.
+1. Select the record type from which you need to remove fields.
 
-9. In the **Manage fields** section, hover over the field you want to remove from the form, and then select **Remove field**.
+1. In the **Manage fields** section, hover over the field you want to remove from the form, and then select **Remove field**.
 
    ![](../media/6-13.png)
    
-10. Select **Publish** to save your changes.
+1. Select **Publish** to save your changes.
 
-- ### Mark fields as required in Copilot for Sales
+### Mark fields as required in Copilot for Sales
 
-11. Select a record type for which you need to mark the fields as required.
+1. Select a record type for which you need to mark the fields as required.
 
-12. In the Manage fields section, select **Required** for the fields that you want to mark as required.
+1. In the Manage fields section, select **Required** for the fields that you want to mark as required.
 
    ![](../media/6-11.png)
 
-13. Select **Publish** to save your changes.
+1. Select **Publish** to save your changes.
 
 ## Task 1.4: Configure editing of records and fields
 
-In this task, you will control how sales users can edit records and fields inside Copilot for Sales, including enabling new contact creation and marking certain fields as required for data completeness.
+In this task, you will control how sales users can edit records and fields inside the Sales App, including enabling new contact creation and marking certain fields as required for data completeness.
 
-- ### To allow editing of records
+### To allow editing of records
 
 1. Select a record type for which you need to allow editing.
 
-1. Turn on **Edit records inside Copilot for Sales** to allow sellers to **edit** all relevant fields in that record type.
+1. Turn on **Edit records inside Sales** to allow sellers to **edit** all relevant fields in that record type.
 
    ![](../media/dyn28.png)
 
@@ -133,25 +151,25 @@ In this task, you will control how sales users can edit records and fields insid
 
 1. Select **Publish** to save your changes.
 
-- ### To configure new contact creation:
+### To configure new contact creation:
 
-5. Select the **Contact record** type.
+1. Select the **Contact record** type.
 
-6. Under **Creating records**, select **Create new records inside Copilot for Sales**.
+1. Under **Creating records**, select **Create new records inside Sales**.
 
    ![](../media/dc601.png)
 
-7. Select **Publish** to save your changes.
+1. Select **Publish** to save your changes.
 
-- ### To select key fields
+### To select key fields
 
-8. Select the record type in which you need to select fields for mini view.
+1. Select the record type in which you need to select fields for mini view.
 
-9. In the **Key fields** section, select fields from the list.
+1. In the **Key fields** section, select fields from the list.
 
    ![](../media/6-14.png)
 
-10. Select **Publish** to save your changes.
+1. Select **Publish** to save your changes.
 
      **Note:** The changes made will reflect in **Outlook**.
 
@@ -163,19 +181,19 @@ In this task, you will learn how to explore additional options available in Copi
 
 > **Note:** To **Switch environments**, there should be two or more environments created in power apps platform.
 
-1. In the **Copilot for Sales** pane, click on the **Options(...) (1)** on the top right and click on **Signed into Dynamics 365 (2)** then select **Switch environment (3)**.
+1. In the **Sales** pane, click on the top right **Copilot-for-Sales (1)** dropdown then select **Switch environment (2)**.
 
-    ![](../media/dc24.png)
+    ![](../media/dc24-1.png)
 
 1. Here you can switch between the environment.    
 
-    ![](../media/dc25.png)
+    ![](../media/dc25-1.png)
 
 ### Task 2.2: View diagnostics data
 
-In this task, you will access and copy diagnostic information from Copilot for Sales to assist with technical troubleshooting.
+In this task, you will access and copy diagnostic information from the Sales app to assist with technical troubleshooting.
 
-1.	Open **Copilot for Sales**.
+1.	Return to **Outlook mail**, open an inbox, and launch the **Sales App** from the top ribbon.
 
 1.	Select the **Options(...)** in the upper-right corner, and then select **Diagnostics**.
 
@@ -189,7 +207,7 @@ In this task, you will access and copy diagnostic information from Copilot for S
 
 In this task, you will learn how to provide feedback directly within Copilot for Sales to help improve AI-generated summaries and drafts.
 
-1.	Open the Customer mail and naviagte to **Copilot for Sales** in Outlook.
+1.	Open the Customer mail and naviagte to the **Sales App** in Outlook.
 
 2.	Select **Options(...) (1)** in the upper-right corner, and then select **Share feedback (2)**.
      
@@ -216,7 +234,7 @@ In this task, you will watch an introductory video that highlights key features 
 
 In this task, you will explore an overview of Copilot for Sales and how it can enhance sales performance through AI integration.
 
-1. Select **Options(...)** in the upper-right corner, and then select **About** > **About Copilot for Sales**. It provides an overview on how we can boost sales performance by using Copilot for Sales.
+1. Select **Options(...)** in the upper-right corner, and then select **About** > **About Sales**. It provides an overview on how we can boost sales performance by using Copilot for Sales.
       
       ![](../media/dyn381.png)
    
@@ -227,7 +245,7 @@ In this task, you will explore an overview of Copilot for Sales and how it can e
 
 In this task, you will access Microsoft’s privacy policies related to Copilot for Sales to understand data handling and compliance.
 
-1.	Open **Copilot for Sales**.
+1.	Open **Sales**.
 
 1.	Select **Options(...)** in the upper-right corner, and then select **About** > **Privacy policy**. To view Microsoft Privacy policies.
      
@@ -239,11 +257,11 @@ In this task, you will access Microsoft’s privacy policies related to Copilot 
 
 ### Task 2.7: Sign out of Copilot for Sales
 
-In this task, you will learn how to sign out of Copilot for Sales and understand what happens when you reconnect to the same or a different CRM system or environment.
+In this task, you will learn how to sign out of Sales and understand what happens when you reconnect to the same or a different CRM system or environment.
 
 When you sign in and reconnect to the same CRM system and environment, your information is restored to the state it was in before you signed out. If you connect to a different CRM system or a different environment, the information is not restored.
 
-1.	Open **Copilot for Sales** in Outlook.
+1.	Open **Sales** in Outlook.
 
 2.	Select **Options(...) (1)** in the upper-right corner, and then select **Sign out (2)**.
       

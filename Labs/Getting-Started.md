@@ -1,10 +1,12 @@
 # Getting Started with Your Dynamics 365 Copilot for Sales Workshop
+
+### Overall Estimated Duration: 8 Hours 30 Minutes
  
 Welcome to your Dynamics 365 Copilot for Sales workshop! We've prepared a seamless environment for you to explore and learn about designing, implementing, managing, and maintaining Copilot for Sales in Outlook and Teams. Let's begin by making the most of this experience:
  
 ## Objective 
 
-- **Pre-Configuration and Setup for Microsoft Copilot for Sales :** In this lab, you will set up the foundational environment needed for Copilot for Sales by creating a Power Apps environment with Dataverse, installing Copilot for Sales in Outlook and Teams, and configuring necessary policies in Microsoft Teams to enable recording and transcription for AI-driven sales meeting analysis.
+- **Pre-Configuration and Setup for Microsoft Copilot for Sales :** In this lab, you will set up the foundational environment needed for Copilot for Sales by creating a Power Apps environment with Dataverse, installing the Sales App in Outlook and Teams, and configuring necessary policies in Microsoft Teams to enable recording and transcription for AI-driven sales meeting analysis.
 
 - **Getting Started with Microsoft Copilot for Sales :** The objective of this lab is to help you **integrate Microsoft Copilot for Sales** into your daily workflow by accessing it through **Outlook, Calendar, and Teams**, and **connecting it to CRM environments** like Dynamics 365 or Salesforce. This enhances productivity, provides AI-driven sales insights, and supports better customer engagement.
 
@@ -12,7 +14,7 @@ Welcome to your Dynamics 365 Copilot for Sales workshop! We've prepared a seamle
 
 - **Use AI to supercharge sales communication :** In this lab, you will learn how to use Copilot for Sales to summarize emails and draft replies using AI. You'll explore features like viewing email summaries, saving them to CRM, generating replies using predefined categories or custom prompts, and sharing feedback. This improves sales communication and keeps CRM data accurate with minimal effort.
 
-- **Drive AI-powered sales :** In this lab, you will explore how to leverage Copilot for Sales within Microsoft Teams to elevate your sales meetings. You’ll learn to schedule meetings, record and transcribe conversations, and utilize AI-generated summaries to capture insights, track action items, and create follow-up tasks—enhancing sales efficiency and collaboration.
+- **Drive AI-powered sales :** In this lab, you will explore how to leverage the **Sales App** within Microsoft Teams to elevate your sales meetings. You’ll learn to schedule meetings, record and transcribe conversations, and utilize AI-generated summaries to capture insights, track action items, and create follow-up tasks—enhancing sales efficiency and collaboration.
 
 - **Customize Microsoft Copilot for Sales (in Teams and Outlook) :** In this lab, you will learn how to customize Microsoft Copilot for Sales within Teams and Outlook by configuring CRM record types, managing fields, and setting editing permissions. You will also explore additional Copilot features such as switching environments, diagnostics, and feedback options to tailor the sales experience to your organization’s needs.
 

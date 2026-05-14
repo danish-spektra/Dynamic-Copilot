@@ -6,7 +6,7 @@
 
 Microsoft Copilot for Sales reduces the need for frequent context switching so that you can find the information that you need. Keeping the correct CRM data accessible and in the flow of work in Outlook and Teams makes updates and references to CRM data near effortless.
 
-In this lab, you will explore the features of Microsoft Copilot for Sales, which helps you create new contacts or leads directly from your Outlook inbox to keep track of your stakeholders. When you send or receive an email from a customer not tracked in your CRM, Copilot suggests adding them. You will learn to create new contacts or leads using the customer's email signature. Copilot ensures related contacts, opportunities, and account records are easily accessible.
+In this lab, you will explore the features of the Sales App, which helps you create new contacts or leads directly from your Outlook inbox to keep track of your stakeholders. When you send or receive an email from a customer not tracked in your CRM, Copilot suggests adding them. You will learn to create new contacts or leads using the customer's email signature. Copilot ensures related contacts, opportunities, and account records are easily accessible.
 
 ## Lab Objectives
 
@@ -23,19 +23,19 @@ In this lab, you will perform:
   
 ## Task 1: Create a contact in your CRM from Copilot for Sales 
 
-In this task, you will learn how to create new CRM contacts directly from Copilot for Sales, either by entering details manually or by capturing information from an existing email. This ensures customer data is quickly added and tracked without leaving Outlook.
+In this task, you will learn how to create new CRM contacts directly from the Sales App, either by entering details manually or by capturing information from an existing email. This ensures customer data is quickly added and tracked without leaving Outlook.
 
 ### Task 1.1: Create a new Record
 
 In this task, you will learn how to create a new contact record manually within the Copilot for Sales environment.
 
-1. Navigate back to **Copilot for sales** environment, if you have switched the environment in the previous lab.
+1. Navigate back to **Copilot-for-sales** environment, if you have switched the environment in the previous lab.
 
 1. Click on the **ellipses(...) (1)** , then select **Switch environment (2).**
 
      ![](../media/dc2.png)
 
-1. Select **Copilot for Sales** and click **OK.**
+1. Select **Copilot for Sales** (1) and click **OK** (2).
 
      ![](../media/dc641.png)
 
@@ -59,15 +59,15 @@ In this task, you will learn how to create a new contact record manually within 
    
     > **Note:** If prompted save this email as part of this contact record click on **Save.**
          
-    > **Note:** Please create one more contact record by following the same steps, with your name and email address that your going to use in ***Lab 4 - Task 4.***
+    > **Important:** Please create one more contact record by following the same steps, with your name and email address that your going to use in ***Lab 4 - Task 4.***
 
 ### Task 1.2: Create a contact from an exisiting Email
 
 In this task, you will learn how to create a contact by extracting details from an existing email using Copilot for Sales.
   
-1. Open a mail from the inbox then click on the **elipses(...).**
+1. Open the Microsoft mail from the inbox then click on the **elipses(...).**
 
-1. Click on **Apps** and select **Copilot for Sales**, and then select **Add to Dynamics 365** beside your contact.
+1. Click on **Apps** in the above ribbon and select **Sales**, and then select **Add to Dynamics 365** beside your contact.
 
     >**Note:** Contacts name can be anything based on your customer or recieved email.
 
@@ -85,7 +85,7 @@ In this task, you will learn how to link a saved contact with other records in D
 
 > **Note:** We can link a contact to another contact if there are already two or more contacts saved. If there is only one contact select **Create a new contact** to create a contact.
 
-1. Open the mail, and open the Copilot for Sales pane from it. Click on the **More Options(...) (1)** beside the saved contact and click  **Open in Dynamics 365 (2)**.
+1. Open the mail and then open the **Microsoft mail** (1). Click the **Apps Icon** (2) to open the Sales side panel, then under **saved contacts** (3) select **Open in Dynamics 365** (4).
 
     ![](../media/dc31.png)
 
@@ -97,15 +97,15 @@ In this task, you will learn how to link a saved contact with other records in D
 
     ![](../media/L2T2S2.11.png)
    
-1. Navigate to **Details** tab, choose the **Owner** and click on **Save and Close**.
+1. Navigate to **Details** (1) tab, choose the **Owner** (2) and click on **Save and Close** (3).
 
-    ![](../media/L2T2S2.21.png)
+    ![](../media/L2T2S2.4.png)
 
 ### Task 3: Change the connected CRM contact 
 
 In this task, you will learn how to edit and update existing CRM connections by modifying contact names, roles, or descriptions.
 
-1. Open the email, click on **Apps** then select **Copilot for Sales**. Scroll down then hover the cursor on the saved contact then click on the **More Options(...) (1)** and select **Open in Dynamics 365 (2)**.
+1. Open the email, click on **Apps** then select **Sales**. Scroll down then hover the cursor on the saved contact then click on the **More Options(...) (1)** and select **Open in Dynamics 365 (2)**.
 
    ![](../media/dc31.png)
 
@@ -119,6 +119,8 @@ In this task, you will learn how to edit and update existing CRM connections by 
 
 1. Change the **contact name (1), role (2) and description (3)**  based on the connection you would like to create then click on **Save and Close (4).**
 
+   > **Note**: You can choose **name, role and description** as per your preference
+
    ![](../media/dc7.png)
 
 1. Click on **Save and Close** and verify its changed.
@@ -129,7 +131,7 @@ In this task, you will learn how to edit and update existing CRM connections by 
 
 In this task, you will learn how to open CRM records through Copilot, review details, and make updates directly in Outlook.
 
-1.	Open the **Copilot for Sales** pane and select a record you want to edit.
+1.	Open the **Sales** pane and select a record you want to edit.
 
 1.	In the record's details cards, select **More actions (...)** and then select **Edit record**.
 
@@ -141,7 +143,7 @@ In this task, you will learn how to open CRM records through Copilot, review det
 
 In this task, you will learn how to quickly search for CRM records and share links via Outlook or Teams to support collaboration.
 
-1.	In Outlook, open the **Copilot for Sales** pane.
+1.	In Outlook, open the **Sales** pane from the above ribbon.
 
 1.	In the (record type) card, scroll down and select the saved contact, clcik on the **ellipses (...)** and select **Copy link**.
 
@@ -149,7 +151,7 @@ In this task, you will learn how to quickly search for CRM records and share lin
 
 1.	Paste the ***link*** in a Teams chat or email.
 
-1. In Teams, open any customer chat and click on **More Options(...)** and select **Copilot for Sales**.
+1. In Teams, open any customer chat and click on **More Options (...)** and select **Sales**.
 
    > **Note:** If there is no chat in teams. Please send a greetings mail from your personal outlook mail to the ODL_User and Click on the edit button in teams and paste your email/username.
     
@@ -161,15 +163,15 @@ In this task, you will learn how to quickly search for CRM records and share lin
   
        ![](../media/dc47.png)
 
-1. Paste the link in chat and Attach any required contact and the CRM record of that contact can be shared with anyone over teams.
+1. Now paste the link u copied in the previous task in the **chat section** and Attach any required contact and the CRM record of that contact can be shared with anyone over teams.
 
-   ![](../media/dc14.png)
+      ![](../media/dc14.png)
 
 ### Task 6: Connect and save emails and meetings to CRM 
 
 In this task, you will learn how to connect and save emails or meetings to CRM records, ensuring all interactions are logged.
 
-1.	Open the email or meeting you want to save to the CRM, and then open **Copilot for Sales**.
+1.	Open the email or meeting you want to save to the CRM, and then open **Sales**.
 
 1.	Select **Save** under **Save email to Dynamics 365**.
 
@@ -187,7 +189,7 @@ In this task, you will learn how to connect and save emails or meetings to CRM r
 
 In this task, you will learn how to view related activities such as past communications or upcoming meetings linked to CRM contacts.
 
-1. Open any email or meeting and then open **Copilot for Sales** pane and select the saved contact.
+1. Open any email or meeting and then open the **Sales** pane and select the saved contact.
 
       ![](../media/dc35.png)
 
@@ -199,7 +201,7 @@ In this task, you will learn how to view related activities such as past communi
 
 In this task, you will learn how to add private notes to CRM contacts, allowing you to capture personal insights and reminders.
 
-1.	Open the **Copilot for Sales** pane.
+1.	Open the **Sales** pane.
 
 2.	In the **Contacts** card, select the contact to which you want to add notes.
 
